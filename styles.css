@@ -146,7 +146,7 @@ h3 { font-size: 1.35rem; font-weight: 700; }
 .float-card span { display: block; font-size: .85rem; line-height: 1.35; color: var(--muted); margin-top: 3px; }
 .float-card .badge { width: 40px; height: 40px; flex-shrink: 0; border-radius: 12px; display: grid; place-items: center; }
 .float-card .badge svg { width: 21px; height: 21px; }
-.float-card.one { left: -44px; bottom: -26px; }
+.float-card.one { left: -64px; bottom: -40px; }
 .float-card.two { right: -36px; top: -18px; }
 
 .badge.coral { background: var(--coral-50); color: var(--coral-700); }
