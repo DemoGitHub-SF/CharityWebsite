@@ -138,16 +138,16 @@ h3 { font-size: 1.35rem; font-weight: 700; }
 }
 .hero-photo.home { background-image: url("https://images.unsplash.com/photo-1524069290683-0457abfe42c3?auto=format&fit=crop&w=1100&q=80"); background-position: 50% 35%; }
 .float-card {
-  position: absolute; display: flex; align-items: center; gap: 14px;
-  background: var(--white); border-radius: var(--radius); padding: 16px 20px;
-  box-shadow: var(--shadow); max-width: 260px;
+  position: absolute; display: flex; align-items: center; gap: 12px;
+  background: var(--white); border-radius: var(--radius); padding: 12px 16px;
+  box-shadow: var(--shadow); max-width: 230px;
 }
-.float-card strong { display: block; font-family: var(--font-head); font-size: 1.1rem; color: var(--teal-900); line-height: 1.2; }
+.float-card strong { display: block; font-family: var(--font-head); font-size: 1rem; color: var(--teal-900); line-height: 1.2; }
 .float-card span { display: block; font-size: .85rem; line-height: 1.35; color: var(--muted); margin-top: 3px; }
-.float-card .badge { width: 46px; height: 46px; flex-shrink: 0; border-radius: 14px; display: grid; place-items: center; }
-.float-card .badge svg { width: 24px; height: 24px; }
-.float-card.one { right: -24px; bottom: 48px; }
-.float-card.two { left: -40px; top: 64px; }
+.float-card .badge { width: 40px; height: 40px; flex-shrink: 0; border-radius: 12px; display: grid; place-items: center; }
+.float-card .badge svg { width: 21px; height: 21px; }
+.float-card.one { left: -44px; bottom: -26px; }
+.float-card.two { right: -36px; top: -18px; }
 
 .badge.coral { background: var(--coral-50); color: var(--coral-700); }
 .badge.teal { background: var(--teal-50); color: var(--teal-700); }
@@ -314,8 +314,8 @@ h3 { font-size: 1.35rem; font-weight: 700; }
 
 /* Responsive */
 @media (max-width: 1020px) {
-  .float-card.one { right: 12px; }
-  .float-card.two { left: 12px; }
+  .float-card.one { left: 12px; }
+  .float-card.two { right: 12px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .value-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .donate-grid, .cta-grid { grid-template-columns: 1fr; }
@@ -345,7 +345,7 @@ h3 { font-size: 1.35rem; font-weight: 700; }
   .container { width: calc(100% - 32px); }
   .float-card { padding: 12px 14px; max-width: 220px; }
   .float-card.two { display: none; }
-  .float-card.one { right: 8px; bottom: 20px; }
+  .float-card.one { left: 8px; bottom: -22px; }
   .value-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; padding-top: 56px; }
   .actions .btn { width: 100%; }
