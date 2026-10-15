@@ -331,7 +331,7 @@ h3 { font-size: 1.35rem; font-weight: 700; }
   background: linear-gradient(0deg, rgba(11, 47, 54, .55), transparent);
 }
 .home-hero { background-image: url("https://images.unsplash.com/photo-1524069290683-0457abfe42c3?auto=format&fit=crop&w=1920&q=80"); background-position: 80% 30%; }
-.about-hero { background-image: url("https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=1920&q=80"); background-position: 75% 40%; padding-bottom: 100px; min-height: clamp(520px, 70vh, 680px); }
+.about-hero { background-image: url("https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=1920&q=80"); background-position: 70% 12%; padding-bottom: 100px; min-height: clamp(520px, 70vh, 680px); }
 .hero-full .container { position: relative; z-index: 1; }
 .hero-copy { max-width: 620px; }
 .hero-full h1 { color: var(--white); font-size: clamp(2.8rem, 5.8vw, 4.8rem); }
