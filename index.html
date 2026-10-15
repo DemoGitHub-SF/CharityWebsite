@@ -1,33 +1,232 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Edukind helps children access learning opportunities and build brighter futures.">
-  <title>Edukind | Brighter Futures Through Education</title>
+  <meta name="description" content="EduKind is a children's education charity. Your gift helps children with school fees, books and after-school tutoring.">
+  <meta name="theme-color" content="#1f5f6b">
+  <title>EduKind | Your gift, their future</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header class="site-header">
-  <a class="brand" href="index.html" aria-label="Edukind home"><img src="logo.svg" alt="EduKind — Your gift, their future" width="196" height="79"></a>
-  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-  <nav class="nav" aria-label="Main navigation"><a class="active" href="index.html">Home</a><a href="about.html">About Us</a><a href="#our-work">Our Work</a><a href="#get-involved">Get Involved</a><a class="btn btn-yellow" href="#donate">Donate Now</a></nav>
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="EduKind home"><img src="logo.svg" alt="EduKind — Your gift, their future" width="186" height="75"></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a class="active" href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About us</a>
+      <a href="#what-we-do">What we do</a>
+      <a href="#get-involved">Get involved</a>
+      <a class="btn btn-primary btn-sm" href="#donate">Donate now</a>
+    </nav>
+  </div>
 </header>
+
 <main>
+  <!-- Hero -->
   <section class="hero">
-    <div class="hero-content"><p class="eyebrow">Every child deserves a chance</p><h1>Every child deserves a <em>brighter future.</em></h1><p class="lead">We believe education opens doors, builds confidence and helps children discover what is possible. Join us in making learning more accessible for every child.</p><div class="actions"><a class="btn btn-yellow" href="#donate">Support our mission ↗</a><a class="btn btn-outline" href="about.html">Meet Edukind</a></div></div>
-    <div class="hero-card"><span class="hero-card-icon">✦</span><div><strong>Learning changes lives</strong><p>One opportunity can make a lasting difference.</p></div></div>
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">A children's education charity</p>
+        <h1>Every child deserves a <span class="highlight">brighter future.<svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 14C70 4 160 2 296 10" fill="none" stroke="#f2b83b" stroke-width="7" stroke-linecap="round"/></svg></span></h1>
+        <p class="lead">EduKind helps children from low-income families stay in school and love learning. We fund school fees, books and after-school tutoring, so no child is held back by their circumstances.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#donate">Sponsor a child
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="about.html">Our story</a>
+        </div>
+        <ul class="hero-points">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>School fees</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Books &amp; supplies</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>After-school tutoring</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <div class="hero-photo home" role="img" aria-label="Children learning together in a classroom"></div>
+        <div class="float-card two">
+          <span class="badge sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2Z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7Z"/></svg></span>
+          <div><strong>Learning changes lives</strong><span>One chance can change everything</span></div>
+        </div>
+        <div class="float-card one">
+          <span class="badge coral"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.7 4.5c2.2 0 3.6 1.2 5.3 3 1.7-1.8 3.1-3 5.3-3 3.7 0 5.8 3.9 4.3 7.3C19.5 16.4 12 21 12 21Z"/></svg></span>
+          <div><strong>Your gift, their future</strong><span>Monthly sponsorship</span></div>
+        </div>
+      </div>
+    </div>
   </section>
-  <section class="values container" aria-label="Our priorities">
-    <article><span class="icon blue">▤</span><h3>Quality education</h3><p>Helping children access learning resources and opportunities.</p></article>
-    <article><span class="icon green">♧</span><h3>Stronger communities</h3><p>Working together with families and local communities.</p></article>
-    <article><span class="icon yellow">♡</span><h3>Equal opportunities</h3><p>Supporting every child to learn, grow and thrive.</p></article>
+
+  <!-- What we do -->
+  <section class="section" id="what-we-do">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">What we do</p>
+        <h2>Support that keeps children learning</h2>
+        <p>Three simple programmes that remove the everyday barriers between a child and the classroom.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card reveal">
+          <span class="badge teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+          <h3>School fees</h3>
+          <p>We cover fees for children whose families can't, so they can enrol and stay in school all year.</p>
+        </article>
+        <article class="card reveal">
+          <span class="badge coral"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2Z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7Z"/></svg></span>
+          <h3>Books &amp; supplies</h3>
+          <p>Every child gets a kit of books, stationery and a uniform at the start of the school year.</p>
+        </article>
+        <article class="card reveal">
+          <span class="badge sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span>
+          <h3>After-school tutoring</h3>
+          <p>Volunteer tutors help children catch up in reading and maths in small weekend groups.</p>
+        </article>
+      </div>
+    </div>
   </section>
-  <section class="mission container" id="our-work"><div class="photo learning-photo" role="img" aria-label="Children learning in a classroom"></div><div><p class="eyebrow">Why we are here</p><h2>Education should open doors for every child.</h2><p>Every child has potential. Edukind aims to help children and communities access the support, resources and encouragement they need to take their next steps with confidence.</p><a class="text-link" href="about.html">Read our story →</a></div></section>
-  <section class="get-involved" id="get-involved"><div class="container"><div class="section-heading"><p class="eyebrow">Be part of the change</p><h2>There are many ways to help.</h2><p>Your time, kindness and support can help create brighter learning opportunities.</p></div><div class="help-grid"><article class="help-card pink"><span class="icon">♡</span><h3>Donate</h3><p>Help support learning materials and educational opportunities.</p><a class="text-link" href="#donate">Give today →</a></article><article class="help-card green"><span class="icon">♧</span><h3>Volunteer</h3><p>Share your time and skills to encourage young learners.</p><a class="text-link" href="#contact">Get involved →</a></article><article class="help-card purple"><span class="icon">⚑</span><h3>Fundraise</h3><p>Bring people together to support children's education.</p><a class="text-link" href="#contact">Start fundraising →</a></article></div></div></section>
-  <section class="donate-band" id="donate"><div class="container donate-inner"><div><p class="eyebrow light">Small actions. Brighter futures.</p><h2>Help make learning possible.</h2><p>Every act of support can help a child move towards a brighter future.</p></div><a class="btn btn-yellow" href="#contact">Get in touch ↗</a></div></section>
+
+  <!-- Mission -->
+  <section class="section" style="padding-top: 0">
+    <div class="container split">
+      <div class="split-photo photo-learning reveal" role="img" aria-label="A child reading in class"></div>
+      <div class="reveal">
+        <p class="eyebrow">Why we are here</p>
+        <h2>Education should open doors for every child.</h2>
+        <p>Every child has potential. Too often, a missing fee or an empty school bag is all that stands in the way. EduKind steps in with practical help and steady encouragement.</p>
+        <ul class="tick-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Support planned around each child's needs</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Close work with families, schools and volunteers</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Clear reporting on where every gift goes</li>
+        </ul>
+        <a class="link" href="about.html">Read our story
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section steps-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">How your gift helps</p>
+        <h2>From your gift to their classroom</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><div class="step-num">1</div><h3>You give</h3><p>Make a one-time gift or become a monthly sponsor in a couple of minutes.</p></div>
+        <div class="step reveal"><div class="step-num">2</div><h3>We fund learning</h3><p>Your gift goes to school fees, book kits and tutoring for children in our programmes.</p></div>
+        <div class="step reveal"><div class="step-num">3</div><h3>Children thrive</h3><p>We track each child's progress and share updates with you along the way.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get involved -->
+  <section class="section involve" id="get-involved">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Be part of the change</p>
+        <h2>There are many ways to help</h2>
+        <p>Your time, kindness and support can open the door to learning.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card donate reveal">
+          <span class="badge coral"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.7 4.5c2.2 0 3.6 1.2 5.3 3 1.7-1.8 3.1-3 5.3-3 3.7 0 5.8 3.9 4.3 7.3C19.5 16.4 12 21 12 21Z"/></svg></span>
+          <h3>Donate</h3>
+          <p>Give once or monthly to fund school fees, books and tutoring.</p>
+          <a class="link" href="#donate">Give today <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="card volunteer reveal">
+          <span class="badge teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span>
+          <h3>Volunteer</h3>
+          <p>Tutor on weekends or help at events, and share your skills with young learners.</p>
+          <a class="link" href="#contact">Become a volunteer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+        <article class="card fundraise reveal">
+          <span class="badge sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22V4M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1"/></svg></span>
+          <h3>Fundraise</h3>
+          <p>Run a challenge, a school fair or a workplace drive for EduKind.</p>
+          <a class="link" href="#contact">Start fundraising <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section class="section donate-band" id="donate">
+    <div class="container donate-grid">
+      <div class="reveal">
+        <p class="eyebrow on-dark">Your gift, their future</p>
+        <h2>Help a child stay in school this year.</h2>
+        <p>Monthly sponsors give children the steady support they need, from the first day of term to the last.</p>
+        <ul class="tick-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Choose where your gift goes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Change or pause your sponsorship any time</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Receipts and progress updates by email</li>
+        </ul>
+      </div>
+      <div class="donate-card reveal" aria-labelledby="donate-title">
+        <h3 id="donate-title">Make a donation</h3>
+        <div class="segmented" role="group" aria-label="Donation frequency">
+          <button type="button" data-frequency="monthly" aria-pressed="true">Monthly</button>
+          <button type="button" data-frequency="once" aria-pressed="false">One-time</button>
+        </div>
+        <div class="amounts" role="group" aria-label="Donation amount">
+          <button type="button" data-amount="500" aria-pressed="false">₹500</button>
+          <button type="button" data-amount="1000" aria-pressed="false">₹1,000</button>
+          <button type="button" data-amount="1500" aria-pressed="true">₹1,500</button>
+          <button type="button" data-amount="2500" aria-pressed="false">₹2,500</button>
+        </div>
+        <p class="impact-note" id="donate-note" role="status">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.7 4.5c2.2 0 3.6 1.2 5.3 3 1.7-1.8 3.1-3 5.3-3 3.7 0 5.8 3.9 4.3 7.3C19.5 16.4 12 21 12 21Z"/></svg>
+          <span>Monthly gifts help us plan a child's support for the whole school year.</span>
+        </p>
+        <button class="btn btn-primary" type="button" id="donate-btn">Donate ₹1,500 monthly</button>
+        <p class="secure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Secure payment</p>
+      </div>
+    </div>
+  </section>
 </main>
-<footer id="contact"><div class="container footer-grid"><div><a class="brand brand-footer" href="index.html" aria-label="EduKind home"><img src="logo.svg" alt="EduKind — Your gift, their future"></a><p>Helping children learn, grow and imagine a brighter tomorrow.</p></div><div><h4>Explore</h4><a href="index.html">Home</a><a href="about.html">About Us</a><a href="#our-work">Our Work</a></div><div><h4>Contact</h4><a href="mailto:hello@edukind.org">hello@edukind.org</a><p class="small">Replace with Edukind's official contact details.</p></div></div><div class="container copyright">© <span id="year"></span> Edukind. Please verify all charity details before publishing.</div></footer>
+
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="logo.svg" alt="EduKind — Your gift, their future" width="220" height="89">
+      <p>Helping children learn, grow and imagine a brighter tomorrow.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="#what-we-do">What we do</a></li>
+        <li><a href="#get-involved">Get involved</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:hello@edukind.org">hello@edukind.org</a></li>
+        <li>[PHONE NUMBER]</li>
+        <li>[ADDRESS]</li>
+      </ul>
+    </div>
+    <div class="footer-cta">
+      <h4>Support a child</h4>
+      <p>Become a monthly sponsor and help a child stay in school.</p>
+      <a class="btn btn-primary btn-sm" href="#donate">Donate now</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> EduKind. All rights reserved.</span>
+    <span>Registered charity no. [NUMBER]</span>
+  </div>
+</footer>
+
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
